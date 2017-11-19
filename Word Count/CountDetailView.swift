@@ -55,7 +55,7 @@ class CountDetailView: UIView {
         self.charsLabel.textAlignment = .left
         self.charsLabel.backgroundColor = UIColor.clear
         self.charsLabel.text = "Characters:"
-        self.charsLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.charsLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.charsLabel)
         //--------------
         
@@ -65,7 +65,7 @@ class CountDetailView: UIView {
         self.charsValueLabel.textAlignment = .right
         self.charsValueLabel.backgroundColor = UIColor.clear
         self.charsValueLabel.text = "0"
-        self.charsValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.charsValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.charsValueLabel)
         //--------------
         
@@ -75,7 +75,7 @@ class CountDetailView: UIView {
         self.wordsLabel.textAlignment = .left
         self.wordsLabel.backgroundColor = UIColor.clear
         self.wordsLabel.text = "Words:"
-        self.wordsLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.wordsLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.wordsLabel)
         //--------------
         
@@ -85,7 +85,7 @@ class CountDetailView: UIView {
         self.wordsValueLabel.textAlignment = .right
         self.wordsValueLabel.backgroundColor = UIColor.clear
         self.wordsValueLabel.text = "0"
-        self.wordsValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.wordsValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.wordsValueLabel)
         //--------------
         
@@ -95,7 +95,7 @@ class CountDetailView: UIView {
         self.linesLabel.textAlignment = .left
         self.linesLabel.backgroundColor = UIColor.clear
         self.linesLabel.text = "Lines:"
-        self.linesLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.linesLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.linesLabel)
         //--------------
         
@@ -105,7 +105,7 @@ class CountDetailView: UIView {
         self.linesValueLabel.textAlignment = .right
         self.linesValueLabel.backgroundColor = UIColor.clear
         self.linesValueLabel.text = "0"
-        self.linesValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.linesValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.linesValueLabel)
         //--------------
         
@@ -115,7 +115,7 @@ class CountDetailView: UIView {
         self.paragraphsLabel.textAlignment = .left
         self.paragraphsLabel.backgroundColor = UIColor.clear
         self.paragraphsLabel.text = "Paragraphs:"
-        self.paragraphsLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.paragraphsLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.paragraphsLabel)
         //--------------
         
@@ -125,7 +125,7 @@ class CountDetailView: UIView {
         self.paragraphsValueLabel.textAlignment = .right
         self.paragraphsValueLabel.backgroundColor = UIColor.clear
         self.paragraphsValueLabel.text = "0"
-        self.paragraphsValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFontWeightThin)
+        self.paragraphsValueLabel.font = UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.thin)
         self.addSubview(self.paragraphsValueLabel)
         //--------------
     }
