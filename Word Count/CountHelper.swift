@@ -12,10 +12,10 @@ import UIKit
 class CountHelper: NSObject {
     
     // Static instance of the object
-    static let sharedCountHelper = CountHelper()
+    static let shared = CountHelper()
     
     func getNumberOfChars(_ text: String) -> Int {
-        return text.characters.count
+        return text.count
     }
     
     func getNumberOfCharsWithoutSpaces(_ text: String) -> Int {

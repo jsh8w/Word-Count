@@ -64,24 +64,24 @@ class ViewController: UIViewController, UINavigationBarDelegate, UITextViewDeleg
         // Call helper and set label texts
         
         // Characters
-        let chars = CountHelper.sharedCountHelper.getNumberOfChars(textView.text)
+        let chars = CountHelper.shared.getNumberOfChars(textView.text)
         self.countSummaryView.charsValueLabel.text = "\(chars)"
         self.countDetailView.charsValueLabel.text = "\(chars)"
         //---------
         
         // Words
-        let words = CountHelper.sharedCountHelper.getNumberOfWords(textView.text)
+        let words = CountHelper.shared.getNumberOfWords(textView.text)
         self.countSummaryView.wordsValueLabel.text = "\(words)"
         self.countDetailView.wordsValueLabel.text = "\(words)"
         //-----------
         
         // Lines
-        let lines = CountHelper.sharedCountHelper.getNumberOfLines(textView.text, textView: textView)
+        let lines = CountHelper.shared.getNumberOfLines(textView.text, textView: textView)
         self.countDetailView.linesValueLabel.text = "\(lines)"
         //-----------
         
         // Paragraphs
-        let paragraphs = CountHelper.sharedCountHelper.getNumberOfParagraphs(textView.text)
+        let paragraphs = CountHelper.shared.getNumberOfParagraphs(textView.text)
         self.countDetailView.paragraphsValueLabel.text = "\(paragraphs)"
         //-----------
     }
